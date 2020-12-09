@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_NeverUnload.unity
+    guid: 9af478b9e5aa7de42911a15717a15cad
+  - enabled: 1
+    path: Assets/Scenes/Background.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SquareA.unity
+    guid: 39b23114dcb043f4fb6df3d76131167b
+  - enabled: 1
+    path: Assets/Scenes/SquareB.unity
+    guid: a04788c518bd5044fb767178fbb93c36
+  - enabled: 1
+    path: Assets/Scenes/SquareC.unity
+    guid: 4c1777ae9fd4b9d41a1ae9da278875a7
+  - enabled: 1
+    path: Assets/Scenes/SquareD.unity
+    guid: dc60745636a09b648ae751a5b397a2f4
+  - enabled: 1
+    path: Assets/Scenes/SquareE.unity
+    guid: 98772191d6aedab489a3e950788eecc9
+  - enabled: 1
+    path: Assets/Scenes/SquareF.unity
+    guid: d9c3a09dff994454cb1e717da5cf978d
+  - enabled: 1
+    path: Assets/Scenes/SquareG.unity
+    guid: 9834e32e4bb15704e8f58944f353c3d9
+  - enabled: 1
+    path: Assets/Scenes/SquareH.unity
+    guid: 593031c1837593346be943025a352b64
+  - enabled: 1
+    path: Assets/Scenes/SquareI.unity
+    guid: 200349ef2b8e35f42919f86d47b18c80
+  - enabled: 1
+    path: Assets/Scenes/SquareJ.unity
+    guid: 1db8347b12e0fe346820cf1297b0ff8a
+  - enabled: 1
+    path: Assets/Scenes/SquareK.unity
+    guid: 98b78ea2f97c52d42b929367ad202dba
+  - enabled: 1
+    path: Assets/Scenes/SquareL.unity
+    guid: c9aaed146e400a245bbc7128b921bae9
+  - enabled: 1
+    path: Assets/Scenes/SquareM.unity
+    guid: 544192755d13c4949ac3256c6c718245
+  - enabled: 1
+    path: Assets/Scenes/SquareN.unity
+    guid: f8ec0ea578f79bf45b323fa79c8fe402
+  - enabled: 1
+    path: Assets/Scenes/SquareO.unity
+    guid: 17c28dfafe4a1374783180e5528391a1
+  - enabled: 1
+    path: Assets/Scenes/SquareP.unity
+    guid: 1222865d7b0b10d4bbcf1efd06aea14e
+  - enabled: 1
+    path: Assets/Scenes/SquareQ.unity
+    guid: d546b9dab1be47a4ea3be13fd0b67e00
+  - enabled: 1
+    path: Assets/Scenes/SquareR.unity
+    guid: e3aee0c783cc0424c920aa6192e05f8f
+  - enabled: 1
+    path: Assets/Scenes/SquareS.unity
+    guid: 6b363b0280e91c54b9830eb6643472ce
+  - enabled: 1
+    path: Assets/Scenes/SquareT.unity
+    guid: 26773a8a2d85bdd428f13383ce559eef
+  - enabled: 1
+    path: Assets/Scenes/SquareU.unity
+    guid: 3a356addd4d37a64c95ce1feb1039625
+  - enabled: 1
+    path: Assets/Scenes/SquareV.unity
+    guid: da69ec4468ca0094689103a2ffee54c3
+  - enabled: 1
+    path: Assets/Scenes/SquareW.unity
+    guid: 00c9ef3cecd522342aaa329400a530b9
+  - enabled: 1
+    path: Assets/Scenes/SquareX.unity
+    guid: 2c0c1977337116f438d101cf125a68ce
+  - enabled: 1
+    path: Assets/Scenes/SquareY.unity
+    guid: 2d221d31de54c504da816a64e334cc6e
+  - enabled: 1
+    path: Assets/Scenes/SquareZ.unity
+    guid: 1f8277282ee8b844a9931f7c84e32cf9
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 1b3cdcf615a18a744b1340e86f2310e7
+  - enabled: 1
+    path: Assets/Scenes/Pause.unity
+    guid: 5a18f724eb30d1345aaf3a8fb992e168
+  - enabled: 1
+    path: Assets/Scenes/Narrator.unity
+    guid: 52382e8b9e0d8774d866a2280411ed2c
+  m_configObjects: {}
