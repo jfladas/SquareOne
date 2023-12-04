@@ -17,11 +17,11 @@ public class AnyManager : MonoBehaviour{
     void Awake(){
         if (!gameStart){
             gameStart = true;
+            anyManager = this;
             no = false;
             currentScene = 2;
             cRoomX = -1;
             cRoomY = -1;
-            anyManager = this;
             SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
             SceneManager.LoadSceneAsync(2, LoadSceneMode.Additive);
             zPos = 0;
@@ -102,6 +102,10 @@ public class AnyManager : MonoBehaviour{
                 currentScene = rooms[yN,xN];
                 SceneManager.LoadSceneAsync(currentScene, LoadSceneMode.Additive);
                 UnloadScene(rooms[y,x]);
+                if(currentScene == 9){
+                    ItemManager.dar = true;
+                    ItemManager.pau = true;
+                }
             }else{
                 no = false;
             }

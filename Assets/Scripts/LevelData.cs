@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelData : MonoBehaviour{
+    // 0 = off, 1 = on, 2 = never on
     public static int[] aU = {
         2, 2, 2, 2, 2,
         1, 1, 1, 1, 0,

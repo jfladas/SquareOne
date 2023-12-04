@@ -19,10 +19,10 @@ public class ItemManager : MonoBehaviour
     public GameObject tel_b;
     void Start()
     {
-        nar = true;
-        dar = true;
+        nar = false;
+        dar = false;
         but = false;
-        pau = true;
+        pau = false;
         mus = false;
         tel = false;
     }
@@ -32,31 +32,49 @@ public class ItemManager : MonoBehaviour
         {
             nar_b.GetComponent<Button>().interactable = false;
             nar_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            nar_b.GetComponent<Button>().interactable = true;
+            nar_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(100, 100);
         }
         if (!dar)
         {
             dar_b.GetComponent<Button>().interactable = false;
             dar_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            dar_b.GetComponent<Button>().interactable = true;
+            dar_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(110, 110);
         }
         if (!but)
         {
             but_b.GetComponent<Button>().interactable = false;
             but_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            but_b.GetComponent<Button>().interactable = true;
+            but_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(90, 90);
         }
         if (!pau)
         {
             pau_b.GetComponent<Button>().interactable = false;
             pau_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            pau_b.GetComponent<Button>().interactable = true;
+            pau_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(80, 90);
         }
         if (!mus)
         {
             mus_b.GetComponent<Button>().interactable = false;
             mus_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            mus_b.GetComponent<Button>().interactable = true;
+            mus_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(90, 90);
         }
         if (!tel)
         {
             tel_b.GetComponent<Button>().interactable = false;
             tel_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(0, 0);
+        }else{
+            tel_b.GetComponent<Button>().interactable = true;
+            tel_b.GetComponent<GridLayoutGroup>().cellSize = new Vector2(110, 110);
         }
     }
 }

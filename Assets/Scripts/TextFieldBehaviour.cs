@@ -11,6 +11,7 @@ public class TextFieldBehaviour : MonoBehaviour, ISelectHandler
     void Start()
     {
         inputField = gameObject.GetComponent<InputField>();
+        inputField.Select();
     }
 
     public void OnSelect(BaseEventData eventData)
