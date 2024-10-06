@@ -1,5 +1,5 @@
 # SquareOne
-*A point and click puzzle game | in development*
+*A point and click puzzle game | demo*
 
 Step into the peculiar universe of "SquareOne," a point-and-click puzzle game that shatters expectations. Traverse a 2D landscape of meticulously arranged square rooms, forming a structured yet eerily static matrix where each click unveils a layer of intrigue.
 
