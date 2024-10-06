@@ -23,3 +23,5 @@ The ultimate goal is to break free from the static nature of the square matrix, 
 - A narrative that unfolds in tandem with the methodical progression of puzzles.
 
 Embark on a journey through the quietly static corridors of SquareOne. Click your way through puzzles, unravel the story, and escape the meticulously structured confines of the square matrix.
+
+![planning](SquareOne.png)
